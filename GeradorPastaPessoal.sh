@@ -51,27 +51,25 @@ for RAIZ in "${PASTAS_RAIZ[@]}"; do
     echo "📁 Criando estrutura em: ./$RAIZ ..."
 
     mkdir -p "$RAIZ"/{ \
-        00_Central/Inbox, \
-        00_Central/Anotacoes&Acessos, \
-        01_DocumentosPessoais/Identificacao, \
-        01_DocumentosPessoais/Endereco&Comprovantes, \
-        01_DocumentosPessoais/Impostos&Declaracoes, \
-        02_Carreira&Estudos/Curriculos&Portfolio, \
-        02_Carreira&Estudos/Cursos&Certificados, \
-        02_Carreira&Estudos/ProjetosProfissionais, \
-        03_Financas/Orcamento&Controle, \
-        03_Financas/Contas&Comprovantes, \
-        03_Financas/Investimentos&Bancos, \
-        04_Saude&BemEstar/Exames&Consultas, \
-        04_Saude&BemEstar/HistoricoDeVacinas, \
-        04_Saude&BemEstar/PlanosDeSaude&Seguros, \
-        05_Casa&Veiculos/Moradia, \
-        05_Casa&Veiculos/Veiculo, \
-        06_ProjetosPessoais/Viagens, \
-        06_ProjetosPessoais/Eventos&Casamentos, \
-        06_ProjetosPessoais/Hobbies&Interesses, \
-        99_ArquivoHistorico/AnosAnteriores, \
-        99_ArquivoHistorico/Fotos&Memorias \
+        DocumentosPessoais/Identificacao, \
+        DocumentosPessoais/Endereco&Comprovantes, \
+        DocumentosPessoais/Impostos&Declaracoes, \
+        Carreira&Estudos/Curriculos&Portfolio, \
+        Carreira&Estudos/Cursos&Certificados, \
+        Carreira&Estudos/ProjetosProfissionais, \
+        Financas/Orcamento&Controle, \
+        Financas/Contas&Comprovantes, \
+        Financas/Investimentos&Bancos, \
+        Saude&BemEstar/Exames&Consultas, \
+        Saude&BemEstar/HistoricoDeVacinas, \
+        Saude&BemEstar/PlanosDeSaude&Seguros, \
+        Casa&Veiculos/Moradia, \
+        Casa&Veiculos/Veiculo, \
+        ProjetosPessoais/Viagens, \
+        ProjetosPessoais/Eventos&Casamentos, \
+        ProjetosPessoais/Hobbies&Interesses, \
+        ArquivoHistorico/AnosAnteriores, \
+        ArquivoHistorico/Fotos&Memorias \
     }
 done
 
